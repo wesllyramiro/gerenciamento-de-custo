@@ -1,0 +1,13 @@
+type Departamento {
+    id:ID
+    nome:String!
+}
+
+type Query{
+    Departamentos:[Departamento!]!
+    Departamento(id:ID!): Departamento
+}
+
+type Mutation {
+    createDepartamento(nome:String) : Departamento
+}

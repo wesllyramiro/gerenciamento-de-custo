@@ -1,0 +1,15 @@
+type Movimentacoes {
+    id:ID
+    funcionario_id:Int!
+    descricao:String
+    valor:Float!
+}
+
+type Query{
+    Movimentacoes: [Movimentacoes!]!
+    Movimentacao (id:ID!): Movimentacoes
+}
+
+type Mutation {
+    createMovimentacoes (funcionario_id:Int!,descricao:String,valor:Float!) : Movimentacoes
+}

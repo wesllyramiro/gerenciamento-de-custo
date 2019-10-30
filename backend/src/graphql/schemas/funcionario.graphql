@@ -1,0 +1,13 @@
+type Funcionario {
+    id:ID
+    departamento_id:Int!
+}
+
+type Query{
+    Funcionarios: [Funcionario!]!
+    Funcionario (id:ID!): Funcionario
+}
+
+type Mutation {
+    createFuncionario (departamento_id:Int!, name:String!) : Funcionario
+}
