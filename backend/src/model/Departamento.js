@@ -5,7 +5,8 @@ class Departamento extends Model {
         super.init({
             nome:DataTypes.STRING(200)
         },{
-            sequelize:connection
+            sequelize:connection,
+            tableName:'departamento'
         })
     }
 }

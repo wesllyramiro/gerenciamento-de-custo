@@ -9,5 +9,5 @@ type Query{
 }
 
 type Mutation {
-    createFuncionario (departamento_id:Int!, name:String!) : Funcionario
+    createFuncionario (departamento_id:Int!, nome:String!) : Funcionario
 }

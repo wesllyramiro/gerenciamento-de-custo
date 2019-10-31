@@ -1,4 +1,4 @@
-const Movimentacoes = require('../../model/Funcionario')
+const Movimentacoes = require('../../model/Movimentacoes')
 
 module.exports = {
     Query: {

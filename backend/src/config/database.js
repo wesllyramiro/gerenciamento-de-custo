@@ -1,9 +1,9 @@
 module.exports = {
      dialect:'postgres'
     ,database:'teste_lanlink'
-    ,host:'192.168.99.100'
+    ,host:'localhost'
     ,username:'postgres'
-    ,password:'sql.1234'
+    ,password:'Postgres2018!'
     ,define:{
         timestamps:true,
         underscored:true
